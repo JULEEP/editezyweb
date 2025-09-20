@@ -38,6 +38,7 @@ import SinglePoster from "./Pages/SinglePoster";
 import CustomPosterEditor from "./Pages/CustomPoster"
 import Logo from "./Pages/Logo";
 import BackgroundRemover from "./Pages/BackgroundRemoval";
+import BusinessCardManager from "./Pages/BusinessCardManager";
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
           <Route path="/custom" element={<CustomPosterEditor />} />
           <Route path="/logo" element={<Logo />} />
           <Route path="/backgroundremoval" element={<BackgroundRemover />} />
+          <Route path="/businesscard" element={<BusinessCardManager />} />
 
       </Routes>
     </Router>

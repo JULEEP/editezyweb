@@ -35,6 +35,9 @@ import Invoice from "./Pages/Invoice";
 import ContactUs from "./Pages/ContactUs";
 import SinglePlan from "./Pages/SinglePlan";
 import SinglePoster from "./Pages/SinglePoster";
+import CustomPosterEditor from "./Pages/CustomPoster"
+import Logo from "./Pages/Logo";
+import BackgroundRemover from "./Pages/BackgroundRemoval";
 
 function App() {
   return (
@@ -77,6 +80,10 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/singleplan/:id" element={<SinglePlan />} />
           <Route path="/posters/:posterId" element={<SinglePoster />} />
+          <Route path="/custom" element={<CustomPosterEditor />} />
+          <Route path="/logo" element={<Logo />} />
+          <Route path="/backgroundremoval" element={<BackgroundRemover />} />
+
       </Routes>
     </Router>
   );

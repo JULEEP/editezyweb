@@ -220,17 +220,6 @@ function BackgroundRemover() {
             )}
           </div>
         </div>
-        
-        {/* Information Section */}
-        <div className="mt-6 bg-blue-50 p-4 rounded-lg">
-          <h3 className="font-medium text-blue-800 mb-2">How to use</h3>
-          <ol className="list-decimal list-inside text-sm text-blue-700 space-y-2">
-            <li>Remove.bg account banayein: <a href="https://www.remove.bg/api" target="_blank" rel="noopener noreferrer" className="underline">https://www.remove.bg/api</a></li>
-            <li>Free API key lein (50 free images per month)</li>
-            <li>Yahan API_KEY variable mein apni API key dalen</li>
-            <li>Image upload karein aur background remove karein</li>
-          </ol>
-        </div>
       </div>
     </div>
   );
